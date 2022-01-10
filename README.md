@@ -29,17 +29,17 @@ This search calculates the relevent documents by this algorithm:
   else we send the query to sim function which changes the query due to the similarities between the tokens. After the output from sim function we checked whether the query changed or not. If the query changed we use get_docs_binary on the new query on the title and sort the results. Else we use expand the query and use get_docs_binary on the body  and sort the results.
 
 ### <ins><b>search_body<b><ins> <br />
-Searching through the body of the articles using the tfidf_func function from the Backend module.<br /> <br />
+Searching through the body of the articles using the tfidf_func function from the Backend module.
 
 ### <ins><b>search_title<b><ins> <br />
-Searching through the title of the articles using the get_docs_binary function from the Backend module. <br /> <br />
+Searching through the title of the articles using the get_docs_binary function from the Backend module.
 
 ### <ins><b>search_anchor<b><ins> <br />
 Searching through the acnhor text of the articles using the get_docs_binary function from the Backend module.
   
 ### <ins><b>get_pagerank<b><ins> <br />
-Pulling the pre-calculated pagerank value from the storage. <br /> <br />
+Pulling the pre-calculated pagerank value from the storage.
 
 ### <ins><b>get_pageview<b><ins> <br />
-Pulling the pre-calculated pageviews value from the storage. <br /> <br />
+Pulling the pre-calculated pageviews value from the storage.
 
